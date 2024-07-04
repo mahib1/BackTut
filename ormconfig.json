@@ -1,0 +1,9 @@
+{
+  "DataSourceOptions": {
+    "type": "postgres",
+    "url": "postgresql://MAHIB1502:admin@localhost:5432/BackTut1",
+    "logging": true,
+    "synchronize": true,
+    "entities": ["./server/**/*.ts"]
+  }
+}
